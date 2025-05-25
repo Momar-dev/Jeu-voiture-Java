@@ -2,6 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.Random;
+import javax.swing.JLabel;
+import javax.swing.filechooser.*;
+import javax.swing.ImageIcon;
 
 public class TicTacToe {
 
@@ -22,7 +25,7 @@ public class TicTacToe {
     JButton rightButton = new JButton("→");
     JButton newGameButton = new JButton("Nouvelle Partie");
 
-    JButton[][] board = new JButton[4][4];
+    JButton[][] board = new JButton[3][3];
     
     ImageIcon personneIcon;
     ImageIcon homeIcon;
