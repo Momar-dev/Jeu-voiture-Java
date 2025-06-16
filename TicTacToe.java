@@ -18,7 +18,7 @@ public class TicTacToe {
     JPanel boardPanel = new JPanel();
     JPanel controlPanel = new JPanel();
     
-    // Boutons directionnels
+   
     JButton upButton = new JButton("↑");
     JButton downButton = new JButton("↓");
     JButton leftButton = new JButton("←");
